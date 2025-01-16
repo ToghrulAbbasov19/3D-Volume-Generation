@@ -164,6 +164,7 @@ python main.py --ldm_ckpt_path {PATH/TO/DIFFUSION/CKPT} --ae_ckpt_path {PATH/TO/
 ```
 The SDS code is in sds_code folder. It currently handles one class at a time by manually changing the class label in model.py (line 43).
 Thresholding & Visualization
+The SDS code will be updated soon for more diverse generation.
 
 After sampling, you can manually set thresholds and visualize results in visualization.ipynb.
 
